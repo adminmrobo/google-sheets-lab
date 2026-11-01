@@ -1,0 +1,251 @@
+{
+  "version": "2.0",
+  "image_width": 1280,
+  "image_height": 1280,
+  "aspect_ratio": "1:1",
+  "status": "inserted",
+  "covers": [
+    {
+      "key": "index",
+      "title": "전체 목차",
+      "html": "index.html",
+      "slot": "cover_index",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-index.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-index.webp",
+      "bytes": 240480,
+      "sha256": "b3177b2f3b32817f35a82754dd6de2213e1b3f73de970b594fcb3bf1cca823c2",
+      "source_archive": "covers_1280_webp.zip"
+    },
+    {
+      "key": "09-01",
+      "title": "합계에서 조건별 집계까지",
+      "html": "section-09-01.html",
+      "slot": "cover_09-01",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-09-01.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-09-01.webp",
+      "bytes": 272076,
+      "sha256": "8b343eaba138ed9821837309cfda7ae88b973172f8836849347148e70a74e9ae",
+      "source_archive": "covers_1280_webp.zip"
+    },
+    {
+      "key": "09-02",
+      "title": "순위·반올림과 문자열 다듬기",
+      "html": "section-09-02.html",
+      "slot": "cover_09-02",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-09-02.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-09-02.webp",
+      "bytes": 291580,
+      "sha256": "4cf0580f264362f063abeceec57802661507162360827381c1aadbba9d932eae",
+      "source_archive": "covers_1280_webp.zip"
+    },
+    {
+      "key": "09-03",
+      "title": "문자 정리에서 참조·검색까지",
+      "html": "section-09-03.html",
+      "slot": "cover_09-03",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-09-03.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-09-03.webp",
+      "bytes": 324834,
+      "sha256": "d5cc883ac2c26e9fd1f0209345a41e1a4812b7943b55e02484b41bff4ed6c585",
+      "source_archive": "covers_1280_webp.zip"
+    },
+    {
+      "key": "09-04",
+      "title": "날짜 계산과 동적 목록",
+      "html": "section-09-04.html",
+      "slot": "cover_09-04",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-09-04.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-09-04.webp",
+      "bytes": 271780,
+      "sha256": "0a750b256d15b711b89d25de4df17e8f482aa1325955c778c71eb1fd4c4cb1fa",
+      "source_archive": "covers_1280_webp.zip"
+    },
+    {
+      "key": "08-01",
+      "title": "참조·배열·한 번에 채우기",
+      "html": "section-08-01.html",
+      "slot": "cover_08-01",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-08-01.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-08-01.webp",
+      "bytes": 281166,
+      "sha256": "f95fb31bd3fa987fcd2cb00a8f41520279bb26dc3487672c3ad5cdc7a1609274",
+      "source_archive": "covers_1280_webp.zip"
+    },
+    {
+      "key": "07-01",
+      "title": "피벗으로 묶고 근거 확인하기",
+      "html": "section-07-01.html",
+      "slot": "cover_07-01",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-07-01.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-07-01.webp",
+      "bytes": 327162,
+      "sha256": "5a7981bf92fc3e65569a56cdc419c4a89da514cb1c5dcb8a7fb3f8df1f43092b",
+      "source_archive": "covers_1280_webp.zip"
+    },
+    {
+      "key": "07-02",
+      "title": "피벗 표현·그룹·슬라이서",
+      "html": "section-07-02.html",
+      "slot": "cover_07-02",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-07-02.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-07-02.webp",
+      "bytes": 253008,
+      "sha256": "768073e9d72189bd28191d1b8f912a154aead6fc3cb17c81b2c1354c9306e8cd",
+      "source_archive": "covers_1280_webp.zip"
+    },
+    {
+      "key": "10-01",
+      "title": "분할·정규식·이미지",
+      "html": "section-10-01.html",
+      "slot": "cover_10-01",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-10-01.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-10-01.webp",
+      "bytes": 304922,
+      "sha256": "da360db6294e08098b9bfe9960b85363e2331baa1a49c37ed07f2823dadc9cc7",
+      "source_archive": "covers_1280_webp.zip"
+    },
+    {
+      "key": "10-02",
+      "title": "작은 차트와 외부 데이터",
+      "html": "section-10-02.html",
+      "slot": "cover_10-02",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-10-02.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-10-02.webp",
+      "bytes": 294220,
+      "sha256": "96f652bc5b525ae17b9453424963c19eb35d03b1ee2bed3ec908874209b64d58",
+      "source_archive": "covers_1280_webp.zip"
+    },
+    {
+      "key": "10-03",
+      "title": "QUERY로 조회·집계·취합",
+      "html": "section-10-03.html",
+      "slot": "cover_10-03",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-10-03.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-10-03.webp",
+      "bytes": 266606,
+      "sha256": "d9901939dfd3d3021643660691765347fc8f4b48d0b56d769a711ec34a02c7de",
+      "source_archive": "covers_1280_webp.zip"
+    },
+    {
+      "key": "10-04",
+      "title": "금융 데이터·번역·언어 감지",
+      "html": "section-10-04.html",
+      "slot": "cover_10-04",
+      "accepted_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp"
+      ],
+      "deployment_path": "assets/covers/cover-10-04.webp",
+      "width": 1280,
+      "height": 1280,
+      "status": "inserted",
+      "received_filename": "cover-10-04.webp",
+      "bytes": 264946,
+      "sha256": "4f7f4c49add35c76913d408a617978b2b3486cf8af8353cc1a05536ea0c130de",
+      "source_archive": "covers_1280_webp.zip"
+    }
+  ],
+  "source_archive": "covers_1280_webp.zip",
+  "inserted_cover_count": 12
+}

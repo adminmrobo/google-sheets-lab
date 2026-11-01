@@ -1,0 +1,127 @@
+{
+  "cover_count": 12,
+  "no_resize_or_reencoding": true,
+  "screen_review": "omitted-at-user-request",
+  "pages": [
+    {
+      "html": "index.html",
+      "image": "assets/covers/cover-index.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 240480,
+      "body_outside_cover_unchanged": true
+    },
+    {
+      "html": "section-09-01.html",
+      "image": "assets/covers/cover-09-01.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 272076,
+      "body_outside_cover_unchanged": true
+    },
+    {
+      "html": "section-09-02.html",
+      "image": "assets/covers/cover-09-02.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 291580,
+      "body_outside_cover_unchanged": true
+    },
+    {
+      "html": "section-09-03.html",
+      "image": "assets/covers/cover-09-03.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 324834,
+      "body_outside_cover_unchanged": true
+    },
+    {
+      "html": "section-09-04.html",
+      "image": "assets/covers/cover-09-04.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 271780,
+      "body_outside_cover_unchanged": true
+    },
+    {
+      "html": "section-08-01.html",
+      "image": "assets/covers/cover-08-01.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 281166,
+      "body_outside_cover_unchanged": true
+    },
+    {
+      "html": "section-07-01.html",
+      "image": "assets/covers/cover-07-01.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 327162,
+      "body_outside_cover_unchanged": true
+    },
+    {
+      "html": "section-07-02.html",
+      "image": "assets/covers/cover-07-02.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 253008,
+      "body_outside_cover_unchanged": true
+    },
+    {
+      "html": "section-10-01.html",
+      "image": "assets/covers/cover-10-01.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 304922,
+      "body_outside_cover_unchanged": true
+    },
+    {
+      "html": "section-10-02.html",
+      "image": "assets/covers/cover-10-02.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 294220,
+      "body_outside_cover_unchanged": true
+    },
+    {
+      "html": "section-10-03.html",
+      "image": "assets/covers/cover-10-03.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 266606,
+      "body_outside_cover_unchanged": true
+    },
+    {
+      "html": "section-10-04.html",
+      "image": "assets/covers/cover-10-04.webp",
+      "size": [
+        1280,
+        1280
+      ],
+      "bytes": 264946,
+      "body_outside_cover_unchanged": true
+    }
+  ]
+}
