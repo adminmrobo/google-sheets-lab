@@ -1,0 +1,904 @@
+{
+ "version": "1.0",
+ "made": "2026-11-24",
+ "via": "rehang-2026-11-24",
+ "domains": [
+  "data",
+  "stats"
+ ],
+ "note": "분야 뼈대 주제에 다시 걸기(ai-lab-retrofit 15장). links는 자동 후보이며 틀린 줄은 지우면 된다. 빌드 스크립트가 있는 저장소는 빌드 끝에 rehang.apply_overlay()가 이 파일을 적용한다.",
+ "topics": {
+  "lab:topic/chart-selection": {
+   "ko": "차트 고르기",
+   "en": "Choosing charts",
+   "domain": [
+    "data"
+   ],
+   "level": 1
+  },
+  "lab:topic/dashboards": {
+   "ko": "대시보드",
+   "en": "Dashboards",
+   "domain": [
+    "data"
+   ],
+   "level": 1
+  },
+  "lab:topic/data-cleaning": {
+   "ko": "데이터 정제·결측치",
+   "en": "Data cleaning and missing values",
+   "domain": [
+    "data"
+   ],
+   "level": 2
+  },
+  "lab:topic/etl-elt": {
+   "ko": "ETL·ELT",
+   "en": "ETL and ELT",
+   "domain": [
+    "data"
+   ],
+   "level": 2
+  },
+  "lab:topic/joins": {
+   "ko": "조인",
+   "en": "Joins",
+   "domain": [
+    "data"
+   ],
+   "level": 1
+  },
+  "lab:topic/spreadsheets-automation": {
+   "ko": "스프레드시트 자동화",
+   "en": "Spreadsheet automation",
+   "domain": [
+    "data"
+   ],
+   "level": 2
+  },
+  "lab:topic/sql": {
+   "ko": "SQL",
+   "en": "SQL",
+   "domain": [
+    "data"
+   ],
+   "level": 1
+  }
+ },
+ "links": {
+  "lab:claim/s07-01": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · 피봇 테이블"
+  },
+  "lab:claim/s07-08": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · 슬라이서"
+  },
+  "lab:claim/s08-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · 상대·절대·혼합 참조"
+  },
+  "lab:claim/s08-03": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · 배열"
+  },
+  "lab:claim/s08-04": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · ARRAYFORMULA"
+  },
+  "lab:claim/s09-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · SUM"
+  },
+  "lab:claim/s09-05": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · SUMIF"
+  },
+  "lab:claim/s09-18": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · TRIM"
+  },
+  "lab:claim/s09-19": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · CLEAN"
+  },
+  "lab:claim/s09-22": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · VLOOKUP"
+  },
+  "lab:claim/s09-24": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · INDEX"
+  },
+  "lab:claim/s09-25": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · MATCH"
+  },
+  "lab:claim/s09-32": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · FILTER"
+  },
+  "lab:claim/s09-33": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · SORT"
+  },
+  "lab:claim/s09-34": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · UNIQUE"
+  },
+  "lab:claim/s10-01": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · SPLIT"
+  },
+  "lab:claim/s10-02": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · REGEXEXTRACT"
+  },
+  "lab:claim/s10-06": {
+   "topic": "lab:topic/chart-selection",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · SPARKLINE"
+  },
+  "lab:claim/s10-07": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · IMPORTRANGE"
+  },
+  "lab:claim/s10-08": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · IMPORTHTML"
+  },
+  "lab:claim/s10-09": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · IMPORTXML"
+  },
+  "lab:claim/s10-12": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · QUERY"
+  },
+  "lab:claim/s10-17": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기능 · GOOGLEFINANCE"
+  },
+  "lab:dataset/s07-01": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · 피봇 테이블"
+  },
+  "lab:dataset/s07-08": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · 슬라이서"
+  },
+  "lab:dataset/s08-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · 상대·절대·혼합 참조"
+  },
+  "lab:dataset/s08-03": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · 배열"
+  },
+  "lab:dataset/s08-04": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · ARRAYFORMULA"
+  },
+  "lab:dataset/s09-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · SUM"
+  },
+  "lab:dataset/s09-05": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · SUMIF"
+  },
+  "lab:dataset/s09-18": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · TRIM"
+  },
+  "lab:dataset/s09-19": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · CLEAN"
+  },
+  "lab:dataset/s09-22": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · VLOOKUP"
+  },
+  "lab:dataset/s09-24": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · INDEX"
+  },
+  "lab:dataset/s09-25": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · MATCH"
+  },
+  "lab:dataset/s09-32": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · FILTER"
+  },
+  "lab:dataset/s09-33": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · SORT"
+  },
+  "lab:dataset/s09-34": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · UNIQUE"
+  },
+  "lab:dataset/s10-01": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · SPLIT"
+  },
+  "lab:dataset/s10-02": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · REGEXEXTRACT"
+  },
+  "lab:dataset/s10-06": {
+   "topic": "lab:topic/chart-selection",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · SPARKLINE"
+  },
+  "lab:dataset/s10-07": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · IMPORTRANGE"
+  },
+  "lab:dataset/s10-08": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · IMPORTHTML"
+  },
+  "lab:dataset/s10-09": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · IMPORTXML"
+  },
+  "lab:dataset/s10-12": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · QUERY"
+  },
+  "lab:dataset/s10-17": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추가 예제 · GOOGLEFINANCE"
+  },
+  "lab:limitation/s07-01": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · 피봇 테이블"
+  },
+  "lab:limitation/s07-08": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · 슬라이서"
+  },
+  "lab:limitation/s08-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · 상대·절대·혼합 참조"
+  },
+  "lab:limitation/s08-03": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · 배열"
+  },
+  "lab:limitation/s08-04": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · ARRAYFORMULA"
+  },
+  "lab:limitation/s09-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · SUM"
+  },
+  "lab:limitation/s09-05": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · SUMIF"
+  },
+  "lab:limitation/s09-18": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · TRIM"
+  },
+  "lab:limitation/s09-19": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · CLEAN"
+  },
+  "lab:limitation/s09-22": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · VLOOKUP"
+  },
+  "lab:limitation/s09-24": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · INDEX"
+  },
+  "lab:limitation/s09-25": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · MATCH"
+  },
+  "lab:limitation/s09-32": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · FILTER"
+  },
+  "lab:limitation/s09-33": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · SORT"
+  },
+  "lab:limitation/s09-34": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · UNIQUE"
+  },
+  "lab:limitation/s10-01": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · SPLIT"
+  },
+  "lab:limitation/s10-02": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · REGEXEXTRACT"
+  },
+  "lab:limitation/s10-06": {
+   "topic": "lab:topic/chart-selection",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · SPARKLINE"
+  },
+  "lab:limitation/s10-07": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · IMPORTRANGE"
+  },
+  "lab:limitation/s10-08": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · IMPORTHTML"
+  },
+  "lab:limitation/s10-09": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · IMPORTXML"
+  },
+  "lab:limitation/s10-12": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · QUERY"
+  },
+  "lab:limitation/s10-17": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주의 · GOOGLEFINANCE"
+  },
+  "lab:method/s07-01": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "피봇 테이블"
+  },
+  "lab:method/s07-08": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "슬라이서"
+  },
+  "lab:method/s08-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "상대·절대·혼합 참조"
+  },
+  "lab:method/s08-03": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "배열"
+  },
+  "lab:method/s08-04": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "ARRAYFORMULA"
+  },
+  "lab:method/s09-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "SUM"
+  },
+  "lab:method/s09-05": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "SUMIF"
+  },
+  "lab:method/s09-18": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "TRIM"
+  },
+  "lab:method/s09-19": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "CLEAN"
+  },
+  "lab:method/s09-22": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "VLOOKUP"
+  },
+  "lab:method/s09-24": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "INDEX"
+  },
+  "lab:method/s09-25": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "MATCH"
+  },
+  "lab:method/s09-32": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "FILTER"
+  },
+  "lab:method/s09-33": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "SORT"
+  },
+  "lab:method/s09-34": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "UNIQUE"
+  },
+  "lab:method/s10-01": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "SPLIT"
+  },
+  "lab:method/s10-02": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "REGEXEXTRACT"
+  },
+  "lab:method/s10-06": {
+   "topic": "lab:topic/chart-selection",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "SPARKLINE"
+  },
+  "lab:method/s10-07": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "IMPORTRANGE"
+  },
+  "lab:method/s10-08": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "IMPORTHTML"
+  },
+  "lab:method/s10-09": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "IMPORTXML"
+  },
+  "lab:method/s10-12": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "QUERY"
+  },
+  "lab:method/s10-17": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "GOOGLEFINANCE"
+  },
+  "lab:quiz/s07-01": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · 피봇 테이블"
+  },
+  "lab:quiz/s07-08": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · 슬라이서"
+  },
+  "lab:quiz/s08-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · 상대·절대·혼합 참조"
+  },
+  "lab:quiz/s08-03": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · 배열"
+  },
+  "lab:quiz/s08-04": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · ARRAYFORMULA"
+  },
+  "lab:quiz/s09-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · SUM"
+  },
+  "lab:quiz/s09-05": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · SUMIF"
+  },
+  "lab:quiz/s09-18": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · TRIM"
+  },
+  "lab:quiz/s09-19": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · CLEAN"
+  },
+  "lab:quiz/s09-22": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · VLOOKUP"
+  },
+  "lab:quiz/s09-24": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · INDEX"
+  },
+  "lab:quiz/s09-25": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · MATCH"
+  },
+  "lab:quiz/s09-32": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · FILTER"
+  },
+  "lab:quiz/s09-33": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · SORT"
+  },
+  "lab:quiz/s09-34": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · UNIQUE"
+  },
+  "lab:quiz/s10-01": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · SPLIT"
+  },
+  "lab:quiz/s10-02": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · REGEXEXTRACT"
+  },
+  "lab:quiz/s10-06": {
+   "topic": "lab:topic/chart-selection",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · SPARKLINE"
+  },
+  "lab:quiz/s10-07": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · IMPORTRANGE"
+  },
+  "lab:quiz/s10-08": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · IMPORTHTML"
+  },
+  "lab:quiz/s10-09": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · IMPORTXML"
+  },
+  "lab:quiz/s10-12": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · QUERY"
+  },
+  "lab:quiz/s10-17": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "예상 답 · GOOGLEFINANCE"
+  },
+  "lab:simulation/s07-01": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · 피봇 테이블"
+  },
+  "lab:simulation/s07-08": {
+   "topic": "lab:topic/dashboards",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · 슬라이서"
+  },
+  "lab:simulation/s08-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · 상대·절대·혼합 참조"
+  },
+  "lab:simulation/s08-03": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · 배열"
+  },
+  "lab:simulation/s08-04": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · ARRAYFORMULA"
+  },
+  "lab:simulation/s09-01": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · SUM"
+  },
+  "lab:simulation/s09-05": {
+   "topic": "lab:topic/spreadsheets-automation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · SUMIF"
+  },
+  "lab:simulation/s09-18": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · TRIM"
+  },
+  "lab:simulation/s09-19": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · CLEAN"
+  },
+  "lab:simulation/s09-22": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · VLOOKUP"
+  },
+  "lab:simulation/s09-24": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · INDEX"
+  },
+  "lab:simulation/s09-25": {
+   "topic": "lab:topic/joins",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · MATCH"
+  },
+  "lab:simulation/s09-32": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · FILTER"
+  },
+  "lab:simulation/s09-33": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · SORT"
+  },
+  "lab:simulation/s09-34": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · UNIQUE"
+  },
+  "lab:simulation/s10-01": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · SPLIT"
+  },
+  "lab:simulation/s10-02": {
+   "topic": "lab:topic/data-cleaning",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · REGEXEXTRACT"
+  },
+  "lab:simulation/s10-06": {
+   "topic": "lab:topic/chart-selection",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · SPARKLINE"
+  },
+  "lab:simulation/s10-07": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · IMPORTRANGE"
+  },
+  "lab:simulation/s10-08": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · IMPORTHTML"
+  },
+  "lab:simulation/s10-09": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · IMPORTXML"
+  },
+  "lab:simulation/s10-12": {
+   "topic": "lab:topic/sql",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · QUERY"
+  },
+  "lab:simulation/s10-17": {
+   "topic": "lab:topic/etl-elt",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "실습 · GOOGLEFINANCE"
+  }
+ },
+ "retag": {
+  "from": [],
+  "to": [
+   "data"
+  ]
+ }
+}
